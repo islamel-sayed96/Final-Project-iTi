@@ -1,0 +1,81 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-title h1 {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .header-title p {
+        padding-top: 10px;
+    }
+    .header-search-it::-webkit-input-placeholder {
+
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-title h1 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .header-title p {
+        padding-top: 20px;
+    }
+    .header-search-it::-webkit-input-placeholder {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-title h1 {
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    .header-title p {
+        padding-top: 30px;
+    }
+    .header-search-it::-webkit-input-placeholder {
+
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header-title h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .header-title p {
+        padding-top: 40px;
+    }
+    .header-search-it::-webkit-input-placeholder {
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header-title h1 {
+        font-size: 60px;
+        font-weight: 700;
+    }
+
+    .header-title p {
+        padding-top: 40px;
+    }
+    .header-search-it::-webkit-input-placeholder {
+        font-weight: 700;
+        font-size: 24px;
+    }
+}
