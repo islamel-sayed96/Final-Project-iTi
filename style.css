@@ -1,0 +1,370 @@
+.clr {
+    clear: both;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.nav-items li {
+    list-style: none;
+    font-weight: 500;
+    color: grey;
+}
+
+.nav-items li:hover {
+    color: #2289FF;
+}
+
+.nav-items a {
+    text-decoration: none;
+}
+
+.search-login input {
+    border: grey 2px dashed;
+    border-radius: 10px;
+    width: 140px;
+}
+
+.fa-bell {
+    background-color: #E6ECF4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    z-index: 2;
+    top: 80px;
+    width: 100%;
+}
+
+.header-image {
+    right: 0px;
+}
+
+.header-title {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 40%;
+    background-color: white;
+    color: #2289FF;
+    box-shadow: rgba(100, 100, 111, 0.2) 5px 2px 5px 2px;
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.header-title h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-title span {
+    color: #186AA5;
+}
+
+.header-title p {
+    padding-top: 40px;
+}
+
+.header-btn {
+    background-color: transparent;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    margin: 30px 0px;
+    transition: 0.5s;
+}
+
+.header-btn:hover {
+    background-color: #2289FF;
+    color: white;
+}
+
+.header-image img {
+    border-radius: 45px;
+}
+
+.header-search {
+    background-color: white;
+    width: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 5px 2px 10px 2px;
+    border-radius: 10px;
+}
+
+.header-search-item input {
+    border: none;
+}
+
+.header-search-it::-webkit-input-placeholder {
+    color: #498AB9;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* our service */
+#our-service {
+    background-color: #F4F7FB;
+}
+.service-header::after {
+    content: "";
+    background-color: #186AA5;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    top: 120%;
+    left: 44%;
+
+}
+
+.our-service-icon {
+    background-color: #2289FF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.fa-house,
+.fa-graduation-cap,
+.fa-user-group {
+    font-size: 24px;
+}
+
+.our-service-item h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.our-service-item button {
+    transform: scale(0, 0);
+    margin: auto;
+    transition: 0.7s;
+}
+
+.our-service-item:hover button {
+    transform: scale(1, 1);
+}
+
+/* our agents */
+.our-agent-item-content {
+    background-color: #c7e8ff;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-google,
+.fa-skype {
+    border: 1px solid #186AA5;
+    width: 30px;
+    height: 30px;
+    color: #0e3d5f;
+    padding-top: 5px;
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.our-agent-item-image:hover .layout {
+    opacity: 1;
+}
+
+.agents-header::after {
+    content: "";
+    background-color: #186AA5;
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    top: 120%;
+    left: 44%;
+}
+
+
+
+
+/* ---------------------------------------------------------------------- */
+/* Start Featured Section */
+.mycontainer p{
+    text-align: center;
+    padding: 0px;
+}
+.mycontainer h2 , .qustions-section h2{
+    color: #143756;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+.mycontainer .h4{
+    color: #5793e3;
+}
+.mycontainer .h4::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #5793e3;
+    margin: -3px auto;
+}
+.Featured-Listing{
+    background-color: #f4f8fb;
+    margin: 0px auto 20px auto;
+    padding: 10px 0px 80px 0px;
+}
+.Featured-Heading{
+    padding: 25px 20px;
+}
+.Featured-Cards .Cards-Rows{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 60%;
+    margin:0px auto;
+}
+.Featured-Cards .Cards-Rows .card{
+    margin: 10px 10px;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 20px #aaa;
+    width: 70%; 
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    background-color: #2289ff;  
+    transition: 0.25s;
+    transform: scale(1.1);
+}
+.card:hover .icon{
+background-color: #fff;
+}
+.Featured-Cards .Cards-Rows .card:hover h6{   
+    color:#ffffff; 
+}
+.Featured-Cards .Cards-Rows .card h6
+{
+  color: #486079;                       
+}
+
+.icon{
+  font-size: 18px;
+  color: #2289ff;
+  padding: 20px 0px;
+  width: 70px;
+  height: 70px;
+  margin:7px auto;
+  background-color: #f4f8fb;
+  border-radius: 100%;
+}
+/* End Featured Section */
+
+/* Start Questions Section */
+.qustions-section h2{
+    padding: 30px 0px;
+}
+.question{
+margin: 20px 300px ;
+padding: 13px 30px;
+box-shadow: 5px 5px 20px #aaa;
+border-radius: 6px;
+}
+.question .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question p{
+    color:#1b3f60;
+    margin: auto 0px;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 900;
+    color: #8d9399;
+}
+.question .answer{
+    color: #92a0ab;
+    font-size: 14px;
+    /* font-weight: ; */
+}
+
+/* End Questions Sections */
+
+/* start footer */
+footer{
+    background-color: #15395b;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 300px;
+    margin: 80px 0px 0px 0px;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+}
+footer a:hover{
+    color: #2289ff;
+}
+.footer-columns{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.footer-columns .logo-column{
+    padding: 10px 135px 0px 0px ;
+}
+.footer-columns .column{
+    margin: 0px 70px 0px 0px;
+}
+.footer-columns .column a{
+    margin: 60px 0px;
+}
+.footer-columns .column h6{
+    margin: 20px 25px 0px 0px;
+}
+.footer-icons i{
+font-size: 30px;
+margin: 0px 6px;
+}
+.footer-icons i:hover{
+    color: #2289ff;
+}
+.column1-text p{
+    font-size: 10px;
+    margin: 25px 0px;
+}
+.column .useful{
+    padding: 0px 0px 7px 0px;
+}
+.column .help{
+    padding: 0px 0px 26px 0px;
+}
+.column .address{
+    padding: 0px 0px 25px 0px;
+}
+.copyRight{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    background-color: #0b2f51;
+}
+.copyRight p{
+    color: #ffffff;
+    padding: 0px 290px;
+    margin: 3px auto;
+    font-size: 12px;
+}
+/* end footer */
